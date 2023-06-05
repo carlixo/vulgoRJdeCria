@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(221, 245, 116);
+}
+
+.header{
+    position: relative;
+    height: 150px;
+    border: 2px solid rgb(101, 104, 101);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5vw;
+    font-size-adjust: auto;
+    font-family: impact;
+    background-color: rgb(35, 116, 131);
+}
+
+.tabela {
+    position: absolute;
+    width: 80%; /* Define a largura da tabela */
+    left: 10%; /* Define a posição da tabela em relação ao lado esquerdo da página */
+    top: 200px; /* Define a posição da tabela em relação ao topo da página */
+    display: flex;
+    justify-content: center; /* Centraliza a tabela horizontalmente */
+    border-collapse: collapse; /* Remove as bordas entre as células da tabela */
+}
+
+.tabela table {
+    width: 90%; /* Define a largura da tabela dentro da div .tabela */
+    left: 10%; /* Define a posição da tabela em relação ao lado esquerdo da div .tabela */
+    background-color: rgb(135, 199, 135); /* Define a cor de fundo da tabela */
+    border: 2px solid rgb(129, 129, 129);
+    text-align: center; /* Centraliza o texto dentro das células da tabela */
+    color: rgb(0, 0, 0); /* Define a cor do texto dentro das células da tabela */
+}
+
+.tabela th,
+.tabela td {
+    border: 3px solid rgb(128, 128, 128); /* Define a largura e a cor das bordas das células da tabela */
+    font-size: 2vw; /* Define o tamanho da fonte do texto dentro das células da tabela */
+    padding: 15px; /* Define o espaço entre o texto e as bordas das células da tabela */
+    text-size-adjust: auto;
+}
+
+.tabela th {
+    color: rgb(0, 0, 0); /* Define a cor do texto dentro das células de cabeçalho da tabela */
+}
+
+.tabela tr:nth-child(even) {
+    background-color: #538d5b; /* Define a cor de fundo das linhas pares da tabela */
+}
+
+.tabela tr:hover {
+    background-color: rgb(112, 139, 99); /* Define a cor de fundo das células da tabela ao passar o mouse por cima */
+}
+
+.submit{
+    position: absolute;
+    top: 1840px;
+    width: 100%;
+    text-align: center;
+}
+   
+textarea{
+    width: 100%;
+     height:80px;
+     top: 300px;
+     box-sizing: border-box;
+     border-radius: 8px;
+     resize: none;
+ }
+    
+
+ .footer{
+    position:relative;
+    background-color:  rgb(31, 93, 122);
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    height:100px;
+    color: azure;
+    top: 1750px;
+    left: 0px;
+    border: 2px solid rgb(101, 104, 101);
+}
